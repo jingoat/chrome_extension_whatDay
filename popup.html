@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 500px;
+        height: 500px;
+      }
+      .title {
+        text-align: center;
+        width: 100%;
+      }
+      #today {
+        font-size: 20px;
+        margin: 20px;
+      }
+      .festival {
+        margin: 20px;
+        font-size: 18px;
+      }
+      .tip {
+        font-weight: 600;
+      }
+      .auth {
+        width: 100%;
+        text-align: center;
+        color: #ccc;
+        position: absolute;
+        bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">每日播报</h1>
+    <div id="today"></div>
+    <div class="festival tip">打工人，工作再累，一定不要忘记摸鱼哦！</div>
+    <div class="festival" id="weekend"></div>
+    <div class="festival" id="mid-autumn"></div>
+    <div class="festival" id="national"></div>
+    <div class="festival" id="new-year"></div>
+    <div class="festival" id="spring"></div>
+    <div class="auth">此插件由Gavin Yu提供，持续更新中...</div>
+    <script src="popup.js"></script>
+  </body>
+</html>
